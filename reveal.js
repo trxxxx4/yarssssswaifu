@@ -21,4 +21,8 @@ function revealFunction(){
 
 window.addEventListener('load', () =>{
     revealFunction();
+    let hidden = document.querySelectorAll(".hidden");
+    hidden.forEach(element => {
+        element.classList.remove('hidden')
+    });
 })
