@@ -6,6 +6,9 @@
 *::selection{
     color: #E23E57;
 }
+.hidden{
+    display: none;
+}
 
 @media screen and (min-width:1161px) {
     body {
