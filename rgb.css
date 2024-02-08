@@ -6,9 +6,7 @@
 *::selection{
     color: #E23E57;
 }
-.sr{
-    height: 100vh;
-}
+
 @media screen and (min-width:1161px) {
     body {
         background-image: url(https://www.zastavki.com/pictures/originals/2014/Backgrounds_Black_wallpaper_with_a_dragon_078565_.jpg);
@@ -19,7 +17,9 @@
         height: 100vh;
 
     }
-
+    .sr{
+        height: 100vh;
+    }
     header {
         width: 100%;
         height: 144px;
