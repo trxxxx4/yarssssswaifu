@@ -10,7 +10,8 @@
     display: none;
 }
 
-@media screen and (min-width:1161px) {
+
+@media screen and (min-width:1161px) and (min-height: 1080px) {
     body {
         background-image: url(https://www.zastavki.com/pictures/originals/2014/Backgrounds_Black_wallpaper_with_a_dragon_078565_.jpg);
         background-size: cover;
@@ -699,6 +700,330 @@
         color: azure;
     }
     /**//**/
+
+
+    .footer__links__buttons{
+        width: 60px;
+        height: 45px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        background-color: #121723;
+        border-radius: 35%;
+        transition: 300ms linear;
+    }
+    .footer__links__img{
+        width: 40px;
+        height: 30px;
+        fill: azure;
+        transition: 300ms linear;
+    }
+    #tg{
+        position:  relative; right: 2px;
+    }
+    #vk{
+        scale: 1.1;
+    }
+    #github{
+        scale: 0.5;
+    }
+    .footer__links__buttons:hover{
+        width: 60px;
+        height: 45px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        background-color: azure;
+        border-radius: 35%;
+
+    }
+    .footer__links__buttons:hover>.footer__links__img{
+        fill: #121723;
+    }
+}
+@media screen and (min-width:1161px) and (max-height:1080px) and (min-width: 475px)  {
+    body {
+        background-image: url(https://www.zastavki.com/pictures/originals/2014/Backgrounds_Black_wallpaper_with_a_dragon_078565_.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+
+    }
+    
+    .sr{
+        min-height: 100%;
+    }
+    header {
+        width: 100%;
+        height: 144px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #header__container {
+        width: 1161px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #header__logo {
+        height: 100%;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        
+
+    }
+
+    #header__links__container {
+        display: flex;
+        align-items: center;
+        width: 900px;
+        
+        height: 100%;
+        opacity: 0.7;
+        justify-content: space-around;
+
+
+    }
+
+    #logo {
+        width: 100%;
+        height: 110%;
+        scale: 0.6;
+        position: relative; top: 10px;
+        
+
+
+    }
+
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        
+
+    }
+    #li__header__links{
+        max-width: 200px;
+        height: 40px;
+        
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 30ms step-start;
+    }
+
+    :root{
+        --kagoe: #88304E;
+    }
+    #character__text__container>p{
+        font-size: 20px;
+        color: azure;
+    }
+    #character__text__container>h1{
+        font-size: 40px;
+        color: azure;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+    #main__container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 1161px;
+        gap:40px;
+
+
+    }  
+    #anime__title__container{
+        height: 70px;
+        border-radius: 20px;
+        
+        background-color: var(--kagoe);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+
+    #anime__title{
+        color: azure;
+        padding: 10px;
+        transition: 50ms linear;
+    }
+    #main__container__box{
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    #character__container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 50%;
+    }
+    #character__text__container{
+        gap: 30px;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 90%;
+    }
+    #character__image__container{
+        width: 45%;
+        height: 100%;
+    }
+    #character__image{
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+        
+    }
+    #footer__links__container{
+        width: 100%;
+        height: 50px;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #footer__container {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    #a__header__links{
+        text-decoration: none;
+        color: azure;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        
+    }
+    #li__header__links:hover{
+        color: #fff;
+        filter: brightness(500%);
+        text-shadow: 
+        0px 0px 12px  purple,
+        0px 0px 22px  purple,
+        0px 0px 32px  purple,
+        0px 0px 42px  purple,
+        0px 0px 46px  purple,
+        0px 0px 56px  purple,
+        0px 0px 66px  purple,
+        0px 0px 77px  purple,
+        0px 0px 88px  purple,
+        0px 0px 96px  purple,
+        0px 0px 92px  purple,
+        0px 0px 52px  purple,
+        0px 0px 62px  purple,
+        0px 0px 72px  purple,
+        0px 0px 82px  purple,
+        0px 0px 102px  purple,
+        0px 0px 112px  purple,
+        0px 0px 122px  purple,
+        0px 0px 132px  purple,
+        0px 0px 142px  purple,
+        0px 0px 152px  purple,
+        0px 0px 7px  purple;
+        filter: brightness(300%);
+        
+        
+        
+        
+        
+        
+        
+    }
+    /**//**//**//**/
+    
+    #anime__watch__link{
+        width: 300px;
+        height: 75px;
+
+        background-color: var(--kagoe);
+        
+        border-radius: 20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        text-decoration: none;
+    }
+    
+    /**//**//**//**//*Тут основноая анимация с одним цветом/**//**/
+    
+    #footer{
+        width: 100%;
+        height: 0px;
+        position: relative; bottom: 0px;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+
+    
+
+
+
+    #anime__watch__link>span{
+        z-index: 3;
+        position: relative;
+        font-size: 24px;
+        color: azure;
+    }
+    #anime__watch__link::after{
+        background-color: #E23E57;
+        content: '';
+        border-radius: 20px;
+        width: 0px;
+        height: 75px;
+        position: absolute; 
+       
+        left: 0;
+  
+
+        transition: 200ms  linear;
+        z-index: 1;
+
+    }
+    #anime__watch__link:hover::after{
+        width: 300px;
+        color: azure;
+    }
+    
+    
+    
 
 
     .footer__links__buttons{
